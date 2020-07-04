@@ -1,0 +1,925 @@
+*{padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.logoOuter{
+    position: relative;
+    height: 1.4em;
+    width: 3em;
+    margin-left: 2em;
+    margin-top: 0.5em;
+    font-size: 2.8em;
+    font-family: 'Parisienne', cursive;
+    color: white;
+  }
+  
+  .logoInner{
+    position: absolute;
+    top: 2.5em;
+    left: 14em;
+    font-family: 'Mitr', sans-serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: white;
+  }
+  
+  .carouselHeader1{
+      margin-top: 4em;
+  }
+  
+
+.ParisienneText{
+    font-family: 'Parisienne', cursive;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.KaushanScript{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 73px;
+    font-weight: 300;
+}
+
+.KaushanScriptWelcome{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 100;
+    font-size: 3em;
+}
+
+.MitrDisplay{
+    font-family: 'Mitr', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 0.7px;
+    text-align: center;
+    width: 75%;
+}
+
+.MitrDisplaynew{
+    font-family: 'Mitr', sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: 0.7px;
+    border: 2px solid white;
+    padding: 12px 40px;
+    margin-top: 4em;
+}
+
+.carouselDotsMargin{
+    margin-top: 3.5em;
+}
+
+.dancingScript{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    color:#C59D5F
+}
+
+.emptyDivTextHeader1{
+    color:#C59D5F;
+    font-family: 'Dancing Script', cursive;
+}
+
+.emptyDivTextHeader2{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 25px;
+}
+
+.emptyDivTextPara{
+    color:#BFBFBF;
+    text-align: center;
+    width: 23em;
+}
+
+
+
+nav{background: #424242;
+    border-bottom: 1px solid rgba(255,255,255,.25);
+}
+
+.nav{display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    background:#424242;
+    height:6em;
+    width: 80%;
+}
+
+#navUl{display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.hamburger{
+    width: 15px;
+    height: 2px;
+    background-color: white;
+    margin: 2px 0;
+  }
+
+.navLi{display:flex;
+    flex-wrap: wrap;
+    list-style: none;
+    color: white;
+    margin: 1em;
+    font-family: 'Mitr', sans-serif;
+    font-size: 12.4px;
+    font-weight: 500;
+    letter-spacing: 1px;;
+}
+
+.reservation{
+    border: 2px solid white;
+    padding: 2px 4px;
+}
+
+.corouselMain{
+    background:#424242;
+    color:white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.pointLeft{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left:5%;
+    z-index: 2;
+    padding: 1em;
+    background: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.pointRight{
+    color: white;
+    position: absolute;
+    top: 50%;
+    right:5%;
+    z-index: 2;
+    padding: 1em;
+    background: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.carousel{display: flex;
+    align-items: center;
+    margin:0 auto;
+    padding: 1em;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 65%;
+    height: 55vh;
+}
+
+#carouselDots{
+    display: flex;
+    flex-direction: row;
+}
+
+.carouselDotsCentered{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.goldenStar{
+    display: flex;
+    color:gold;
+    margin-bottom: 1em;
+}
+
+.goldenStarMargin{
+    margin:6px;
+}
+
+.carouselCircle{
+    height: 12px;
+    background: white;
+    border-radius: 50%;
+    width:10px;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carouselCircleInner{
+    height: 8px;
+    background: black;
+    border-radius: 50%;
+    width:6px;
+}
+
+
+.welcome{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+    width:60%;
+    text-align: center;
+}
+
+.leaves{
+    margin:1.5em 0em;
+}
+
+.welcomePara{
+   color: #BFBFBF
+}
+
+.tabs{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin:0 auto;
+    width: 30%;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#tabsAbout{
+    color:#C59D5F;
+}
+
+#Section1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2em;
+
+}
+.emptyDivMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    width:25em;
+    height:30em;
+}
+
+
+.emptyDiv{
+    height: 24em;
+    width: 23em;
+    display: flex;
+    background:#585858;;
+}
+.emptyDivText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width :25em;
+    height:20em;
+    padding: 1em;
+    margin: 1em;
+}
+.emptyDivh4{
+    display: flex;
+    justify-content: center;
+}
+
+#section2{
+    background: black;
+    height: 140vh;
+    text-align: center;
+}
+.section2svg{
+    background: black;
+    display:flex;
+    margin: 0 auto;
+}
+
+#section2Text1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 10em;
+    margin-bottom: 2em;
+    color: white;
+}
+#section2Text1Header1{
+    color: #C59D5F;
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+}
+#section2Text1Header2{
+    color:white;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 45px;
+}
+
+#section2Text2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    height:40em;
+    background:white;
+    width: 80%;
+}
+
+.section2Text2Price{
+    color:#C59D5F;  
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+}
+.section2Text2Header{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 25px;
+}
+
+.section2Text2Para{
+    color:#BFBFBF;
+    font-family: 'Mitr', sans-serif;
+    margin-bottom: 1em;
+}
+
+.section2Text2Divs{
+    margin:0.6em 0em;
+}
+#section3{
+    height: 90vh;
+    text-align: center;
+}
+
+
+#section3text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:1em;
+    width:60%;
+    height: 60%;
+    margin:0 auto;
+    flex-direction: column;
+}
+
+#section3textHeader3{
+    font-family: 'Mitr', sans-serif;
+    color: #BFBFBF;
+}
+#section3Ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 24em;
+    margin-top:2em;
+}
+
+.section3Li{
+    list-style: none;
+    font-size: 25px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.section3LiCurrent{
+    color:#C59D5F;  
+    border-bottom: 2px solid #C59D5F;
+}
+
+#section3textHeader1{
+    
+color:#C59D5F; 
+font-size: 35px;
+margin-top: 2em;
+font-family: 'Dancing Script', cursive;
+}
+
+#section3textHeader2{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+}
+
+
+#section4Main{
+    height:160vh; 
+}
+
+#section4{background:url(wooden.jpg) no-repeat center center/cover;
+	height: 140vh;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+#section4ContentMain{
+    position:absolute;
+    width: 80%;
+    top:-170px;
+    bottom: -160px;
+    background: lightskyblue;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.1), 0 24px 80px 0 rgba(0, 0, 0, 0.19);
+}
+
+#section4ContentInner{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: lightgray;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.svg4{
+    background: #BFBFBF;
+    display: flex;
+    margin: 0 auto;
+}
+.section4svg{
+        background: #BFBFBF;
+        display:flex;
+        margin: 0 auto;
+}
+
+.section4TextDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    height:20em;
+    width:33.3%;
+}
+
+.section4TextDivHeader1{
+    color:#C59D5F;  
+font-family: 'Kaushan Script', cursive;
+margin-bottom: 0.5em;
+}
+
+.section4TextDivHeader2{
+font-family: 'Kaushan Script', cursive;
+margin-bottom: 0.5em;
+}
+
+.section4TextDivPara1{
+    text-align: center;
+    color:#BFBFBF;
+}
+
+.section4Star{
+    margin-bottom: 1.5em;
+}
+
+.section4EmptyDiv{
+    background:#BFBFBF;
+    height:20em;
+    width:33.3%;
+
+}
+
+
+.section4svgtop{
+    display: flex;
+    margin: 0 auto;
+}
+
+
+#svgnew4{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top:0 auto;
+}
+
+
+#section5{
+    width: 100%;
+    height: 12em;
+}
+
+
+#section5Text{
+    display: flex;
+    justify-content: center;
+    padding:1em 4em;
+    background: black;
+    color: white;
+    width: 20em;
+    margin:0 auto;
+}
+
+.svg{
+    display: flex;
+    margin: 0 auto;
+      }
+
+#svgDiv{
+    background: #2A2A2A;
+}
+#innerDiv1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 2em;
+    flex-direction: column;
+}
+.innerDiv1Header1{
+    color:#C59D5F;  
+    font-family: 'Dancing Script', cursive;
+}
+
+.innerDiv1Header2{
+    font-family: 'Kaushan Script', cursive;
+    color:white;
+}
+
+#innerDiv1Main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.innerDiv1Content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 25em;
+    width: 25em;
+    background: white;
+    margin:1em;
+    padding: 0em 2em;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.innerDiv1ContentCircle{
+    margin-top: 1em;
+    width: 45px;
+    height:40px;
+    border-radius: 50%;
+    background: grey;
+    border-bottom: hotpink;
+    padding:1px;
+    
+
+}
+
+.innerDiv1ContentPara{
+    font-family: 'Kaushan Script', cursive;
+    font-size:15px;
+    color:#BFBFBF;
+    font-weight:100;
+    margin-top:1em;
+}
+#section6{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 46%;
+    height: 40vh;
+    margin: 0 auto;
+    padding:2em 1em 0em 1em;
+    text-align: center;
+}
+
+#section6Header1{
+    color:#C59D5F;
+    font-family: 'Dancing Script', cursive;
+    font-size:35px;
+}
+
+#section6Header2{
+    font-family: 'Kaushan Script', cursive;
+    font-size:45px;
+}
+
+
+#section6Para{
+    color:#BFBFBF;
+    font-family: 'Mitr', sans-serif;
+    font-size:12px;
+    text-align:center;
+}
+
+#section7{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 5em;
+    margin-top:3em;
+}
+
+#section7Div{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width:17em;
+    margin: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#section7Div1Inner1{
+    height: 50%;
+    width: 100%;
+    background: grey;
+}
+
+#section7Div1Inner2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 1em;
+    padding-left: 1em; 
+    background: white;
+    height: 50%;
+    width: 100%;
+}
+
+#section7Div1Inner2Header1{
+    color:#C59D5F; 
+    font-size:12px;
+}
+#section7Div1Inner2Header2{
+    font-family: 'Mitr', sans-serif;
+    font-size: 18px;
+}
+
+#section7Div1Inner2Header3{
+    color:#BFBFBF;
+    font-family: 'Mitr', sans-serif;
+}
+
+
+#section8{
+    display: flex;
+    justify-content: center;
+    background: #222222;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.section8Content{
+    background:#1B1B1B;
+    width:25em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: -4em;
+}
+#section8ContentText{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+}
+
+
+#svg8{
+    background: white;
+    height: 1.5em;
+    margin-bottom: 1em;
+}
+
+
+#section8RelativeHeader1{
+   
+    color:white;
+    border-bottom: 3px solid #222222;
+    font-family: 'Kaushan Script', cursive;
+    font-size:30px;
+}
+#star2{
+    margin-bottom: 1em;
+}
+
+
+.section8RelativeTime{
+    width: 15em;
+    color: #BFBFBF;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.7px dotted #BFBFBF;
+    font-size: 20px;
+    padding: 0.5em;
+    margin: 0.1em;
+}
+#section8RelativeHeader3{
+    margin-bottom: 3.7em;
+    margin-top: 2.1em;
+    color:#C59D5F;
+    padding:16px 120px;
+    border:solid 2px #C59D5F; 
+}
+
+#commonDiv{
+    background:#222222;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 4em;
+    height: 15.5em;
+}
+
+.commonDivContent{
+    width: 20em;
+    height: 9.3em;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+}
+
+.commonDivContentHeader1{
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 1em;
+}
+
+.commonDivContentHeader2{
+    color:#BFBFBF;
+    font-family: 'Mitr', sans-serif;
+    font-size:15px;
+    margin-bottom: 1em;
+}
+
+.commonDivContentHeader3{
+    color:#C59D5F; 
+    margin-bottom: 1em;
+    font-size: 12px;
+}
+
+
+.svgSection9{
+    display: flex;
+    justify-content: center;
+    background: #222222;
+}
+
+#section9{
+    display: flex;
+    justify-content: center;
+}
+
+.section9Circle{
+    margin: 1px;
+    background: #1c1c1c;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50%;
+    color:white;
+    margin-right: 1em;
+}
+
+#section9Main{
+   background: #222222;
+}
+
+#section9NewsLetter{
+    display: flex;
+    background:#1c1c1c;
+    color:#BFBFBF;
+    padding: 8px 20px;
+    border-radius: 16px;
+    font-family: 'Kaushan Script', cursive;
+}
+#newsLetterArrow{
+    margin-left: 3.5em;
+    color: #C59D5F; 
+}
+
+.hrcolor{
+    color: blue;
+    background: cyan;
+}
+
+#footer{
+    display: flex;
+    height:4em;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: #BFBFBF;
+}
+  @media only screen and (max-width:800px) {
+    .section4EmptyDiv{
+        display: none;
+    }
+    .section4svgbottom{
+        display: none;
+    }
+    .section4svgtop{
+        display: none;
+    }
+    .svg{
+        display: none;
+    }
+    #section4{
+        background:none;
+    }
+    #section4ContentMain{
+        width:100%;
+    }
+    #section4Main{
+        height: 80vh;
+    }
+    #section3{
+        margin-bottom: 5em;
+    }
+    .section8Content{
+        position: static;
+    }
+    .tabs{
+        width:100%;
+        font-size: 15px;
+    }
+
+    .nav{
+        height:8em;
+    }
+    .welcomeMain{
+        padding-top:2em;
+        padding-bottom: 2em;
+    }
+
+    #section3text{
+        width: 70%;
+        margin-top: 2em;
+    }
+
+    .section4TextDivHeader1{
+        margin-top: 2em;
+    }
+
+    .section4TextDivPara1{
+        margin-bottom: 2em;
+    }
+    .section4TextDiv{
+        padding:2em 0em;
+    }
+
+    #section6{
+        width:55%;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    #section6Para{
+        font-size: 14px;
+    }
+    .commonDivContent{
+        height: 11em;
+    }
+    #svg8{
+        display: none;
+    }
+    .ParisienneText{
+        font-size: 30px;
+    }
+    .KaushanScript{
+        font-size: 50px;
+  }
+
+   .MitrDisplay{
+       width: 100%;
+   }
+   .carousel{
+    width: 80%;
+   }
+   #svgnew4{
+       display: none;
+   }
+   .section9Circle{
+       margin:0.6px;
+   }
+   #newsLetterArrow{
+       margin-left: 2em;
+   }
+   .section2Text2Price{
+       font-size: 16px;
+   }
+   #section4{
+    height: auto;
+   }
+
+}
